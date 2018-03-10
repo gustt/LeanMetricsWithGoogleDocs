@@ -7,12 +7,12 @@ export class NavMenu extends React.Component<{}, {}> {
                 <div className='navbar navbar-inverse'>
                 <div className='navbar-header'>
                     <button type='button' className='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
-                        <span className='sr-only'>Toggle navigation</span>
+                        <span className='sr-only'>Recolher menu</span>
                         <span className='icon-bar'></span>
                         <span className='icon-bar'></span>
                         <span className='icon-bar'></span>
                     </button>
-                    <Link className='navbar-brand' to={ '/' }>DashBoardAgil</Link>
+                    <Link className='navbar-brand' to={ '/' }>Dash Board Lean</Link>
                 </div>
                 <div className='clearfix'></div>
                 <div className='navbar-collapse collapse'>
