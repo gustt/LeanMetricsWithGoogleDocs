@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { NavMenu } from './NavMenu';
+import NavMenu from './NavMenu';
 
 export class Layout extends React.Component<{}, {}> {
     public render() {
@@ -9,7 +9,7 @@ export class Layout extends React.Component<{}, {}> {
                     <NavMenu />
                 </div>
                 <div className='col-sm-9'>
-                    { this.props.children }
+                    {this.props.children}
                 </div>
             </div>
         </div>;
