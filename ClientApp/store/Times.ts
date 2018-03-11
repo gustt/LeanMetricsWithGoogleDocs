@@ -6,8 +6,8 @@ import { AppThunkAction } from './';
 // STATE - This defines the type of data maintained in the Redux store.
 
 export interface TimeState {
-    isLoading?: boolean;
-    data?: TimeCoponenteModel[];
+    isLoading: boolean;
+    data: TimeCoponenteModel[];
 }
 
 export interface TimeCoponenteModel
