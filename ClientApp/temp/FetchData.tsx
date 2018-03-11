@@ -1,4 +1,4 @@
-import * as React from 'react';
+/* import * as React from 'react';
 import { Link, RouteComponentProps } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { ApplicationState }  from '../store';
@@ -71,3 +71,4 @@ export default connect(
     (state: ApplicationState) => state.weatherForecasts, // Selects which state properties are merged into the component's props
     WeatherForecastsState.actionCreators                 // Selects which action creators are merged into the component's props
 )(FetchData) as typeof FetchData;
+ */

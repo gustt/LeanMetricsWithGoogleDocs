@@ -14,6 +14,7 @@ export interface TimeCoponenteModel
 {
     id: number;
     nome: string;
+    cumulativeFlowURL: string;
 }
 // -----------------
 // ACTIONS - These are serializable (hence replayable) descriptions of state transitions.
@@ -61,7 +62,7 @@ export const reducer: Reducer<TimeState> = (state: TimeState, incomingAction: Ac
         case 'BUSCAR':
             return {
                 data: state.data,
-                isLoading: true
+                isLoading: true,
             };
         case 'RETORNAR':
             // Only accept the incoming data if it matches the most recent request. This ensures we correctly

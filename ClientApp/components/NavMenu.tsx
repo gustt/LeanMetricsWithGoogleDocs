@@ -24,17 +24,22 @@ export class NavMenu extends React.Component<{}, {}> {
                         </li>
                         <li>
                             <NavLink to={'/counter'} activeClassName='active'>
-                                <span className='glyphicon glyphicon-education'></span> Counter
+                                <span className='glyphicon glyphicon-education'></span> Parametrização
+                            </NavLink>
+                        </li>
+                    </ul>
+                </div>
+                <div className='clearfix'></div>
+                <div className='navbar-collapse collapse'>
+                    <ul className='nav navbar-nav'>
+                        <li>
+                            <NavLink exact to={'/DispercaoLeadtime'} activeClassName='active'>
+                                <span className='glyphicon glyphicon-home'></span> Disperção de LeadTime
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink to={'/fetchdata'} activeClassName='active'>
-                                <span className='glyphicon glyphicon-th-list'></span> Teste
-                            </NavLink>
-                        </li>
-                        <li>
-                            <NavLink to={'/fetchdata'} activeClassName='active'>
-                                <span className='glyphicon glyphicon-th-list'></span> Testesss
+                            <NavLink to={'/cfd'} activeClassName='active'>
+                                <span className='glyphicon glyphicon-education'></span> Cumulative Flow Diagram
                             </NavLink>
                         </li>
                     </ul>

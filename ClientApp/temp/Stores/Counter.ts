@@ -1,4 +1,4 @@
-import { Action, Reducer } from 'redux';
+/* import { Action, Reducer } from 'redux';
 
 // -----------------
 // STATE - This defines the type of data maintained in the Redux store.
@@ -46,3 +46,4 @@ export const reducer: Reducer<CounterState> = (state: CounterState, action: Know
     //  (or default initial state if none was supplied)
     return state || { count: 0 };
 };
+ */

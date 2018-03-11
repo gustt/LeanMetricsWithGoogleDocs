@@ -1,4 +1,4 @@
-import * as React from 'react';
+/* import * as React from 'react';
 import { Link, RouteComponentProps } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { ApplicationState }  from '../store';
@@ -27,4 +27,4 @@ class Counter extends React.Component<CounterProps, {}> {
 export default connect(
     (state: ApplicationState) => state.counter, // Selects which state properties are merged into the component's props
     CounterStore.actionCreators                 // Selects which action creators are merged into the component's props
-)(Counter) as typeof Counter;
+)(Counter) as typeof Counter; */
